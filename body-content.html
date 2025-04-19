@@ -1,39 +1,49 @@
 
 <div class="paper" data-aos="fade-up">
-  <div class="flex flex-col md:flex-row items-center justify-center gap-8">
-      <div class="flex justify-center">
+    <div class="flex flex-row items-center justify-center gap-4 flex-wrap">
+        <!-- Profile Image -->
+        <div class="flex-shrink-0 flex justify-center">
           <img src="./assets/resume.jpeg" alt="Syed Yakoob Shiraz" class="profile-img" />
-      </div>
-      <div class="flex flex-col md:border-l-2 border-gray-300 pl-6 text-center md:text-left">
-          <h1 class="text-3xl font-bold uppercase text-gray-800 mb-3 animate-pulse">
-              SYED YAKOOB SHIRAZ
+        </div>
+      
+        <!-- Vertical rule and Contact Info -->
+        <div class="flex flex-col border-l-2 border-gray-300 pl-4 text-left">
+          <h1 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold uppercase text-gray-800 mb-3 animate-pulse">
+            SYED YAKOOB SHIRAZ
           </h1>
+      
           <div class="flex items-center mb-2">
-              <img src="./assets/icons/phone.png" class="w-6 h-6 mr-2" />
-              <span>+91-6363094922</span>
+            <img src="./assets/icons/phone.png" class="w-5 h-5 sm:w-6 sm:h-6 mr-2" />
+            <span class="text-sm sm:text-base">+91-6363094922</span>
           </div>
+      
           <div class="flex items-center mb-2">
-              <img src="./assets/icons/gmail.png" class="w-6 h-6 mr-2" />
-              <span>syedyshiraz@gmail.com</span>
+            <img src="./assets/icons/gmail.png" class="w-5 h-5 sm:w-6 sm:h-6 mr-2" />
+            <span class="text-sm sm:text-base">syedyshiraz@gmail.com</span>
           </div>
+      
           <div class="flex items-center mb-2">
-              <img src="./assets/icons/linkedin.png" class="w-6 h-6 mr-2" />
-              <a href="https://linkedin.com/in/syedyshiraz"
-                  class="text-black hover:underline">linkedin.com/in/syedyshiraz</a>
+            <img src="./assets/icons/linkedin.png" class="w-5 h-5 sm:w-6 sm:h-6 mr-2" />
+            <a href="https://linkedin.com/in/syedyshiraz" class="text-sm sm:text-base text-black hover:underline">
+              linkedin.com/in/syedyshiraz
+            </a>
           </div>
+      
           <div class="flex items-center">
-              <img src="./assets/icons/github.png" class="w-6 h-6 mr-2" />
-              <a href="https://github.com/syedyshiraz"
-                  class="text-black hover:underline">github.com/syedyshiraz</a>
+            <img src="./assets/icons/github.png" class="w-5 h-5 sm:w-6 sm:h-6 mr-2" />
+            <a href="https://github.com/syedyshiraz" class="text-sm sm:text-base text-black hover:underline">
+              github.com/syedyshiraz
+            </a>
           </div>
+        </div>
       </div>
-  </div>
+      
 
   <br />
   <hr />
   <br />
   <section data-aos="fade-up">
-      <h2 class="text-2xl font-semibold text-gray-800 mb-3">Summary</h2>
+    <h2 class="text-3xl font-bold text-center mb-8">Summary</h2>
       <p class="text-gray-700 text-justify text-lg leading-relaxed">
           Backend-focused Software Development Engineer with expertise in Java
           and Spring Boot. Syed Shiraz has successfully led efforts to enhance
@@ -49,7 +59,7 @@
   <hr />
   <br />
   <section class="mt-12">
-      <h2 class="text-2xl font-semibold text-gray-800 mb-8">
+    <h2 class="text-3xl font-bold text-center mb-8">
           Work Experience
       </h2>
       <div class="relative">
@@ -87,7 +97,7 @@
                   </div>
               </div>
           </div>
-          <div class="flex items-start justify-center relative" data-aos="fade-right">
+          <div class="flex items-start justify-center relative" data-aos="fade-left">
               <div class="w-1/4 pr-8 text-right">
                   <p class="text-gray-700 text-sm font-medium mt-2">
                       Jan 2022 – July 2022
@@ -124,7 +134,8 @@
   <hr />
   <br />
   <section data-aos="fade-up">
-      <h2 class="text-2xl font-semibold text-gray-800 mb-3">Education</h2>
+    <h2 class="text-3xl font-bold text-center mb-8">
+        Education</h2>
       <div class="relative">
           <div class="absolute left-1/4 top-1/4 h-1/2 w-1 bg-gray-400 rounded-full transform -translate-x-1/2">
           </div>
@@ -176,112 +187,133 @@
   <br />
   <hr />
   <br />
-  <section class="my-12 pt-16 relative z-10 overflow-visible">
+  <section>
     <h2 class="text-3xl font-bold text-center mb-8">Skills</h2>
-    <div class="carousel-container">
-      <div class="carousel-track" id="skills-carousel">
-        <div class="carousel-item p-4">
-          <div class="skill-card">
-            <img src="./assets/skills/java.png" alt="Java" class="w-16 h-16 mb-4 mx-auto" />
-            <p class="font-medium">Java</p>
+    
+    <div class="carousel-container overflow-hidden relative max-w-6xl mx-auto">
+      <div id="skills-carousel" class="carousel-track flex transition-transform duration-300 ease-in-out">
+        
+        <!-- Skill Items -->
+        <div class="carousel-item flex-shrink-0 px-2">
+          <div class="skill-card w-28 h-24 sm:w-36 sm:h-32 md:w-44 md:h-36 bg-white rounded-2xl shadow-md flex flex-col items-center justify-center">
+            <img src="./assets/skills/java.png" alt="Java" class="w-10 h-10 sm:w-12 sm:h-12 mb-2" />
+            <p class="text-sm sm:text-base font-medium">Java</p>
           </div>
         </div>
-              <div class="carousel-item">
-                  <div class="skill-card">
-                      <img src="./assets/skills/cpp.png" alt="C++" class="w-12 h-12 mb-2" />
-                      <p class="font-medium">C++</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="skill-card">
-                      <img src="./assets/skills/sql.png" alt="SQL" class="w-12 h-12 mb-2" />
-                      <p class="font-medium">SQL</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="skill-card">
-                      <img src="./assets/skills/HTML5.png" alt="HTML" class="w-12 h-12 mb-2" />
-                      <p class="font-medium">HTML</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="skill-card">
-                      <img src="./assets/skills/CSS3.png" alt="CSS" class="w-12 h-12 mb-2" />
-                      <p class="font-medium">CSS</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="skill-card">
-                      <img src="./assets/skills/vcontrol.png" alt="Git" class="w-12 h-12 mb-2" />
-                      <p class="font-medium">Git</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="skill-card">
-                      <img src="./assets/skills/Powershell.png" alt="Powershell" class="w-12 h-12 mb-2" />
-                      <p class="font-medium">Powershell</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="skill-card">
-                      <img src="./assets/skills/Spring-boot.png" alt="Spring" class="w-12 h-12 mb-2" />
-                      <p class="font-medium">Spring</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="skill-card">
-                      <img src="./assets/skills/JUnit.png" alt="JUnit" class="w-12 h-12 mb-2" />
-                      <p class="font-medium">JUnit</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="skill-card">
-                      <img src="./assets/skills/Postman.png" alt="Postman" class="w-12 h-12 mb-2" />
-                      <p class="font-medium">Postman</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="skill-card">
-                      <img src="./assets/skills/Docker.png" alt="Docker" class="w-12 h-12 mb-2" />
-                      <p class="font-medium">Docker</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="skill-card">
-                      <img src="./assets/skills/Maven.png" alt="Maven" class="w-12 h-12 mb-2" />
-                      <p class="font-medium">Maven</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="skill-card">
-                      <img src="./assets/skills/Hibernate.png" alt="Hibernate" class="w-12 h-12 mb-2" />
-                      <p class="font-medium">Hibernate</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="skill-card">
-                      <img src="./assets/skills/IntelliJ IDEA.png" alt="IntelliJ IDEA"
-                          class="w-12 h-12 mb-2" />
-                      <p class="font-medium">IntelliJ IDEA</p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="skill-card">
-                      <img src="./assets/skills/Linux.png" alt="Linux" class="w-12 h-12 mb-2" />
-                      <p class="font-medium">Linux</p>
-                  </div>
-              </div>
-            </div>
-            <button class="carousel-control prev animate-pulse bg-transparent shadow-md hover:shadow-lg" id="prevBtn">❮</button>
-            <button class="carousel-control next animate-pulse bg-transparent shadow-md hover:shadow-lg" id="nextBtn">❯</button>
+  
+        <div class="carousel-item flex-shrink-0 px-2">
+          <div class="skill-card w-28 h-24 sm:w-36 sm:h-32 md:w-44 md:h-36 bg-white rounded-2xl shadow-md flex flex-col items-center justify-center">
+            <img src="./assets/skills/cpp.png" alt="C++" class="w-10 h-10 sm:w-12 sm:h-12 mb-2" />
+            <p class="text-sm sm:text-base font-medium">C++</p>
           </div>
-        </section>
+        </div>
+  
+        <div class="carousel-item flex-shrink-0 px-2">
+          <div class="skill-card w-28 h-24 sm:w-36 sm:h-32 md:w-44 md:h-36 bg-white rounded-2xl shadow-md flex flex-col items-center justify-center">
+            <img src="./assets/skills/sql.png" alt="SQL" class="w-10 h-10 sm:w-12 sm:h-12 mb-2" />
+            <p class="text-sm sm:text-base font-medium">SQL</p>
+          </div>
+        </div>
+  
+        <div class="carousel-item flex-shrink-0 px-2">
+          <div class="skill-card w-28 h-24 sm:w-36 sm:h-32 md:w-44 md:h-36 bg-white rounded-2xl shadow-md flex flex-col items-center justify-center">
+            <img src="./assets/skills/HTML5.png" alt="HTML" class="w-10 h-10 sm:w-12 sm:h-12 mb-2" />
+            <p class="text-sm sm:text-base font-medium">HTML</p>
+          </div>
+        </div>
+  
+        <div class="carousel-item flex-shrink-0 px-2">
+          <div class="skill-card w-28 h-24 sm:w-36 sm:h-32 md:w-44 md:h-36 bg-white rounded-2xl shadow-md flex flex-col items-center justify-center">
+            <img src="./assets/skills/CSS3.png" alt="CSS" class="w-10 h-10 sm:w-12 sm:h-12 mb-2" />
+            <p class="text-sm sm:text-base font-medium">CSS</p>
+          </div>
+        </div>
+  
+        <div class="carousel-item flex-shrink-0 px-2">
+          <div class="skill-card w-28 h-24 sm:w-36 sm:h-32 md:w-44 md:h-36 bg-white rounded-2xl shadow-md flex flex-col items-center justify-center">
+            <img src="./assets/skills/vcontrol.png" alt="Git" class="w-10 h-10 sm:w-12 sm:h-12 mb-2" />
+            <p class="text-sm sm:text-base font-medium">Git</p>
+          </div>
+        </div>
+  
+        <div class="carousel-item flex-shrink-0 px-2">
+          <div class="skill-card w-28 h-24 sm:w-36 sm:h-32 md:w-44 md:h-36 bg-white rounded-2xl shadow-md flex flex-col items-center justify-center">
+            <img src="./assets/skills/Powershell.png" alt="Powershell" class="w-10 h-10 sm:w-12 sm:h-12 mb-2" />
+            <p class="text-sm sm:text-base font-medium">Powershell</p>
+          </div>
+        </div>
+  
+        <div class="carousel-item flex-shrink-0 px-2">
+          <div class="skill-card w-28 h-24 sm:w-36 sm:h-32 md:w-44 md:h-36 bg-white rounded-2xl shadow-md flex flex-col items-center justify-center">
+            <img src="./assets/skills/Spring-boot.png" alt="Spring" class="w-10 h-10 sm:w-12 sm:h-12 mb-2" />
+            <p class="text-sm sm:text-base font-medium">Spring</p>
+          </div>
+        </div>
+  
+        <div class="carousel-item flex-shrink-0 px-2">
+          <div class="skill-card w-28 h-24 sm:w-36 sm:h-32 md:w-44 md:h-36 bg-white rounded-2xl shadow-md flex flex-col items-center justify-center">
+            <img src="./assets/skills/JUnit.png" alt="JUnit" class="w-10 h-10 sm:w-12 sm:h-12 mb-2" />
+            <p class="text-sm sm:text-base font-medium">JUnit</p>
+          </div>
+        </div>
+  
+        <div class="carousel-item flex-shrink-0 px-2">
+          <div class="skill-card w-28 h-24 sm:w-36 sm:h-32 md:w-44 md:h-36 bg-white rounded-2xl shadow-md flex flex-col items-center justify-center">
+            <img src="./assets/skills/Postman.png" alt="Postman" class="w-10 h-10 sm:w-12 sm:h-12 mb-2" />
+            <p class="text-sm sm:text-base font-medium">Postman</p>
+          </div>
+        </div>
+  
+        <div class="carousel-item flex-shrink-0 px-2">
+          <div class="skill-card w-28 h-24 sm:w-36 sm:h-32 md:w-44 md:h-36 bg-white rounded-2xl shadow-md flex flex-col items-center justify-center">
+            <img src="./assets/skills/Docker.png" alt="Docker" class="w-10 h-10 sm:w-12 sm:h-12 mb-2" />
+            <p class="text-sm sm:text-base font-medium">Docker</p>
+          </div>
+        </div>
+  
+        <div class="carousel-item flex-shrink-0 px-2">
+          <div class="skill-card w-28 h-24 sm:w-36 sm:h-32 md:w-44 md:h-36 bg-white rounded-2xl shadow-md flex flex-col items-center justify-center">
+            <img src="./assets/skills/Maven.png" alt="Maven" class="w-10 h-10 sm:w-12 sm:h-12 mb-2" />
+            <p class="text-sm sm:text-base font-medium">Maven</p>
+          </div>
+        </div>
+  
+        <div class="carousel-item flex-shrink-0 px-2">
+          <div class="skill-card w-28 h-24 sm:w-36 sm:h-32 md:w-44 md:h-36 bg-white rounded-2xl shadow-md flex flex-col items-center justify-center">
+            <img src="./assets/skills/Hibernate.png" alt="Hibernate" class="w-10 h-10 sm:w-12 sm:h-12 mb-2" />
+            <p class="text-sm sm:text-base font-medium">Hibernate</p>
+          </div>
+        </div>
+  
+        <div class="carousel-item flex-shrink-0 px-2">
+          <div class="skill-card w-28 h-24 sm:w-36 sm:h-32 md:w-44 md:h-36 bg-white rounded-2xl shadow-md flex flex-col items-center justify-center">
+            <img src="./assets/skills/IntelliJ IDEA.png" alt="IntelliJ IDEA" class="w-10 h-10 sm:w-12 sm:h-12 mb-2" />
+            <p class="text-sm sm:text-base font-medium">IntelliJ IDEA</p>
+          </div>
+        </div>
+  
+        <div class="carousel-item flex-shrink-0 px-2">
+          <div class="skill-card w-28 h-24 sm:w-36 sm:h-32 md:w-44 md:h-36 bg-white rounded-2xl shadow-md flex flex-col items-center justify-center">
+            <img src="./assets/skills/Linux.png" alt="Linux" class="w-10 h-10 sm:w-12 sm:h-12 mb-2" />
+            <p class="text-sm sm:text-base font-medium">Linux</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Carousel Controls -->
+      <button class="carousel-control prev absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full shadow px-2 py-1" id="prevBtn">❮</button>
+      <button class="carousel-control next absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full shadow px-2 py-1" id="nextBtn">❯</button>
+    </div>
+  </section>
+  
+  
+  
 
   <br />
   <hr />
   <br />
   <section data-aos="fade-up">
-      <h2 class="text-2xl font-semibold text-gray-800 mb-3">Projects</h2>
+    <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
       <div class="mb-6 project-item">
           <h3 class="text-xl font-semibold text-black">
               LinkLeap | <u><a href="https://chromewebstore.google.com/detail/gippggnimonbgpmkccmbdmokpjobgkli?utm_source=item-share-cb" class="text-black hover:underline">Chrome Web Store</a></u>
